@@ -2,10 +2,10 @@ import { FaPython, FaJava, FaJs,FaDatabase } from "react-icons/fa";
 import { SiFastapi, SiMongodb } from "react-icons/si";
 import { BiTerminal } from "react-icons/bi";
 
-const CardIcon = () => {
+const CardIcon = ({t}:{t:any}) => {
     return (
       <div className="relative w-full h-full p-4 md:p-8">
-        <h3 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">Lenguajes</h3>
+        <h3 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">{t.programin}</h3>
         <div className="flex items-center">
           <div className="flex flex-col items-center justify-center w-20">
             <div className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">

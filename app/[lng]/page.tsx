@@ -1,18 +1,24 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import en from "../public/locale/en"
-import es from "../public/locale/es"
+import es from "public/locale/es";
+import en from "public/locale/en";
 
-
-export default function Home() {
+export default function Home({ params: { lng }}:{params:{lng:string}}) {
+	
+	const t = lng.startsWith("es") ? es:en;
+	const idiom = lng.startsWith("es") ? "en":"es";
 	const navigation = [
-		{ name: "Sobre mi", href: "/about" },
-		{ name: "Contáctame", href: "/contact" },
+		{ name: t.aboutme, href: `/${lng}/about` },
+		{ name: t.Contact, href: `/${lng}/contact` },
 	];
-	const t = en
 	return (
-		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+		<div className="relative flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+			<button className="my-16 animate-fade-in absolute right-10 -top-10">
+				<a href={`/${idiom}`} className="hover:text-gray-800 hover:animate-fill-button relative z-10 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange" style={{ border: '1px solid', padding: '4px' }}>
+						{t.LNG}
+				</a>
+			</button>
 			<nav className="my-16 animate-fade-in">
 				<ul className="flex items-center justify-center gap-4">
 					{navigation.map((item) => (
@@ -44,7 +50,7 @@ export default function Home() {
 				</h2>
 				<br />
 				<button>
-					<a href='https://drive.google.com/file/d/1dV-4zoxnXzvtvgt4sbvqpgUrtSo-iyJn/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="hover:animate-fill-button relative z-10 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange" style={{ border: '1px solid', padding: '4px' }}>
+					<a href='https://drive.google.com/file/d/1dV-4zoxnXzvtvgt4sbvqpgUrtSo-iyJn/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 hover:animate-fill-button relative z-10 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange" style={{ border: '1px solid', padding: '4px' }}>
 						{t.download}
 					</a>
 				</button>
