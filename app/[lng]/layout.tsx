@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 		siteName: "Cirielli.com",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "public/portfolio-banner.jpg",
 				width: 1920,
 				height: 1080,
 			},
