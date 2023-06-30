@@ -11,5 +11,6 @@ export default{
     en:"Ingles",
     idioms:"idiomas",
     programin:"Languajes",
-    LNG:"ES"
+    LNG:"ES",
+    CV:"https://drive.google.com/file/d/1dV-4zoxnXzvtvgt4sbvqpgUrtSo-iyJn/view?usp=sharing"
 }

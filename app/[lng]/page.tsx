@@ -50,7 +50,7 @@ export default function Home({ params: { lng }}:{params:{lng:string}}) {
 				</h2>
 				<br />
 				<button>
-					<a href='https://drive.google.com/file/d/1dV-4zoxnXzvtvgt4sbvqpgUrtSo-iyJn/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 hover:animate-fill-button relative z-10 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange" style={{ border: '1px solid', padding: '4px' }}>
+					<a href={t.CV} target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 hover:animate-fill-button relative z-10 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange" style={{ border: '1px solid', padding: '4px' }}>
 						{t.download}
 					</a>
 				</button>
