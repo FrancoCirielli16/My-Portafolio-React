@@ -16,11 +16,11 @@ export const metadata: Metadata = {
 		default: "Cirielli.com",
 		template: "%s | Cirielli.com",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Backend developer",
 	openGraph: {
 		title: "Cirielli.com",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
+			"Backend developer",
 		url: "https://Cirielli.com",
 		siteName: "Cirielli.com",
 		images: [
@@ -43,10 +43,6 @@ export const metadata: Metadata = {
 			"max-image-preview": "large",
 			"max-snippet": -1,
 		},
-	},
-	twitter: {
-		title: "Chronark",
-		card: "summary_large_image",
 	},
 	icons: {
 		shortcut: "/favicon.png",
