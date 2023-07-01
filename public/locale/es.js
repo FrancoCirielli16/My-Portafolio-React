@@ -10,7 +10,7 @@ export default{
     es:"Español",
     en:"Ingles",
     idioms:"idiomas",
-    programin:"Languajes",
+    programin:"Lenguajes",
     LNG:"ES",
     CV:"https://drive.google.com/file/d/1dV-4zoxnXzvtvgt4sbvqpgUrtSo-iyJn/view?usp=sharing"
 }
