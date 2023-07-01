@@ -47,7 +47,7 @@ const CardIcon = ({t}:{t:any}) => {
             <div className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">
               <SiMongodb size={48} />
             </div>
-            <span className="text-white">MangoDB</span>
+            <span className="text-white">MongoDB</span>
           </div>
           <div className="flex flex-col items-center justify-center w-20">
             <div className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 		siteName: "Cirielli.com",
 		images: [
 			{
-				url: "public/portfolio-banner.jpg",
+				url: "../public/portfolio-banner.jpg",
 				width: 1920,
 				height: 1080,
 			},
@@ -44,9 +44,7 @@ export const metadata: Metadata = {
 			"max-snippet": -1,
 		},
 	},
-	icons: {
-		shortcut: "/favicon.png",
-	},
+	icons: { icon: { url: "/favicon.png", type: "image/png" }, shortcut: { url: "/favicon.png", type: "image/png" }, }
 };
 const inter = Inter({
 	subsets: ["latin"],
