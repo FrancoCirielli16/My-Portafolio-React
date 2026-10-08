@@ -13,16 +13,15 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
 	title: {
-		default: "Cirielli.com",
-		template: "%s | Cirielli.com",
+		default: "Franco Cirielli",
+		template: "%s | Franco Cirielli",
 	},
-	description: "Backend developer",
+	description: "Desarrollador full stack. Pagos, terminales POS y producto.",
 	openGraph: {
-		title: "Cirielli.com",
-		description:
-			"Backend developer",
-		url: "https://Cirielli.com",
-		siteName: "Cirielli.com",
+		title: "Franco Cirielli",
+		description: "Desarrollador full stack. Pagos, terminales POS y producto.",
+		url: "https://francocirielli.fliait.dev/es",
+		siteName: "Franco Cirielli",
 		images: [
 			{
 				url: "../public/portfolio-banner.jpg",

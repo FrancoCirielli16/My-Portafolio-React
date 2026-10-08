@@ -10,18 +10,21 @@ const CardLeng = ({t}:{t:any}) => {
               <ReactCountryFlag countryCode="ES" svg />
             </div>
             <span className="text-white">{t.es}</span>
+            <span className="text-xs text-zinc-400">{t.esLevel}</span>
           </div>
           <div className="flex flex-col items-center justify-center w-20">
             <div className="relative z-10 flex items-center justify-center w-12 h-12" style={{ fontSize: '36px' }}>
               <ReactCountryFlag countryCode="IT" svg />
             </div>
             <span className="text-white">{t.it}</span>
+            <span className="text-xs text-zinc-400">{t.itLevel}</span>
           </div>
           <div className="flex flex-col items-center justify-center w-20">
             <div className="relative z-10 flex items-center justify-center w-12 h-12" style={{ fontSize: '36px' }}>
               <ReactCountryFlag countryCode="US" svg />
             </div>
             <span className="text-white">{t.en}</span>
+            <span className="text-xs text-zinc-400">{t.enLevel}</span>
           </div>
         </div>
       </div>

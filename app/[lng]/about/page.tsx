@@ -32,7 +32,7 @@ export default async function ProjectsPage({ params: { lng }}:{params:{lng:strin
 							>
 								{t.titule_info}
 							</h2>
-							<p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+							<p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300 whitespace-pre-line">
 								{t.myinfo}
 							</p>
 						</article>
